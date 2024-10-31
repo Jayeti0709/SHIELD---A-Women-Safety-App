@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:id="@+id/toolbar"
+
+            android:background="#EDC9CF"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#ECC8CE">
+
+
+            <ImageButton
+                android:id="@+id/btnCallFamilyMember"
+                android:layout_width="117dp"
+                android:layout_height="114dp"
+                android:layout_marginTop="388dp"
+                android:layout_marginEnd="8dp"
+                android:backgroundTint="#EDC9CF"
+                android:onClick="callPerson"
+                android:translationX="150dp"
+                android:translationY="100dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_call_male_100" />
+
+            <ImageButton
+                android:id="@+id/btnCallPolice"
+                android:layout_width="87dp"
+                android:layout_height="101dp"
+                android:layout_marginTop="384dp"
+                android:layout_marginEnd="252dp"
+                android:backgroundTint="#EDC9CF"
+                android:onClick="callPerson"
+                android:translationX="150dp"
+                android:translationY="-140dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_police_100" />
+
+            <ImageButton
+                android:id="@+id/btnMessageFamilyMember"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="536dp"
+                android:layout_marginEnd="124dp"
+                android:backgroundTint="#EDC9CF"
+                android:onClick="messageEveryone"
+                android:translationX="250dp"
+                android:translationY="-180dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/icons8_message_100" />
+
+
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="281dp"
+                android:translationY="-30dp"
+                app:srcCompat="@drawable/new_child_removebg_preview" />
+
+            <ImageButton
+                android:id="@+id/btnSetAlarm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#ECC8CE"
+                android:translationX="30dp"
+                android:translationY="350dp"
+                android:onClick="setAlarm"
+                app:srcCompat="@drawable/icons8_siren_100" />
+
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+
+
+
+
+

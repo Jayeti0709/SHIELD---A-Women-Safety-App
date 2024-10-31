@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F68FA0"
+    tools:context=".FAQ">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDC9CF"
+        android:elevation="35dp"
+
+        app:popupTheme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:theme="@style/Theme.Material3.DayNight.NoActionBar" />
+
+    <RelativeLayout
+        android:layout_width="356dp"
+        android:layout_height="632dp"
+        android:background="#FDFAFA"
+        android:backgroundTint="#FDFAFA"
+        android:translationX="20dp"
+        android:translationY="80dp">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="396dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="What are the steps I can take against domestic violence?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:translationY="80sp" />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="You can file a complaint in the nearest police station. If possible, try to collect as much evidence as you can such as recordings, photos, medical reports, eye-witnesses"
+                    android:textSize="16sp"
+                    android:translationY="80sp" />
+
+                <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="How can we protect ourselves from assault when there is no “skin-to-skin” contact?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:translationY="90sp" />
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="match_parent"
+                    android:layout_height="58dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Any kind of physical sexual assault will fall under sexual harassment and molestation, both of which are crimes under the Indian Penal Code."
+                    android:textSize="16sp"
+                    android:translationY="90sp" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="match_parent"
+                    android:layout_height="47dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="If someone gropes me in public, how can I legally protect myself"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:translationY="100sp" />
+
+                <TextView
+                    android:id="@+id/textView20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Call the police and report the incident, providing a description of the perpetrator and any witnesses."
+                    android:textSize="16sp"
+                    android:translationY="100dp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Safety Tips"
+                    android:textColor="#323030"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:translationY="-320dp" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:text="How can I prevent such incidents?"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:translationY="70dp" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:text="While you can't always prevent such incidents, there are safety measures you can take, such as being aware of your surroundings, walking in well-lit areas, and having a trusted friend or family member accompany you in unfamiliar places."
+                    android:textSize="16sp"
+                    android:translationY="70sp" />
+
+                "/>
+            </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ECC8CE"
+        android:text="Back"
+        android:textColor="#100F0F"
+        android:onClick="back2"
+        android:translationX="140dp"
+        android:translationY="730dp" />
+</FrameLayout>

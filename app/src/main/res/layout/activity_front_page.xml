@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/only_bg"
+    android:clickable="true"
+    tools:context=".FrontPage"
+    android:id="@+id/frontpage">
+
+<ImageView
+android:id="@+id/imageView"
+android:layout_width="wrap_content"
+android:layout_height="581dp"
+android:layout_alignParentEnd="true"
+android:layout_alignParentBottom="true"
+android:layout_marginEnd="-6dp"
+android:layout_marginBottom="275dp"
+app:srcCompat="@drawable/new_child_removebg_preview" />
+
+<ImageView
+android:id="@+id/imageView5"
+android:layout_width="match_parent"
+android:layout_height="916dp"
+android:translationY="200dp"
+app:srcCompat="@drawable/newgirl1" />
+
+    </RelativeLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:background="@drawable/only_bg"-->
+<!--    tools:context=".FrontPage"-->
+<!--    android:clickable="true">-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="581dp"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginEnd="-6dp"-->
+<!--        android:layout_marginBottom="275dp"-->
+<!--        app:srcCompat="@drawable/new_child_removebg_preview" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView5"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="916dp"-->
+<!--        android:translationY="200dp"-->
+<!--        app:srcCompat="@drawable/newgirl1" />-->
+
+<!--</RelativeLayout>-->
