@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">SHEild</string>
+    <string name="open_nav" translatable="false">Open Navigation Drawer</string>
+    <string name="close_nav" translatable="false">Close Navigation Drawer</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="share" translatable="false">Share</string>
+    <string name="about_us" translatable="false">About Us</string>
+    <string name="logout" translatable="false">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="add_user" translatable="false">Add User</string>
+    <string name="delete_user" translatable="false">Delete User</string>
+    <string name="update_user" translatable="false">Update User</string>
+    <string name="my_profile" translatable="false">My Profile</string>
+    <string name="add_user_fragment" translatable="false">Add user fragment</string>
+    <string name="emailid" translatable="false">Emailid</string>
+    <string name="q_amp_a" translatable="false"><![CDATA[Q & A]]></string>
+    <string name="edit" translatable="false">edit</string>
+    <string name="set_timer" translatable="false">Set Timer</string>
+</resources>
