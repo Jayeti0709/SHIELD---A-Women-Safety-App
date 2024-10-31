@@ -1,2 +1,11 @@
 # SHIELD---A-Women-Safety-App
-An Android application focused on women’s safety, providing real-time location tracking, emergency alerts, and safe route suggestions. Developed with Google Maps API and Firebase, the app allows users to quickly notify trusted contacts in emergencies and access nearby help centers, promoting a secure environment for users on the go.
+Project Description
+SHIELD is an Android-based mobile application designed to enhance women's safety by providing real-time support and security. The app allows users to quickly alert trusted contacts and emergency services in potentially dangerous situations. Through features like location tracking, emergency alerts, and safety tips, SHIELD aims to create a secure environment, empowering women in their daily lives.
+Table of Contents
+1.Technologies Used
+2.Features
+3.Modules
+4.Setup and Installation
+5.Usage
+6.Conclusion
+
